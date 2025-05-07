@@ -1,0 +1,13 @@
+# Ignore everything in uploads except .gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log 
