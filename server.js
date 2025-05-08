@@ -43,7 +43,6 @@ app.use(express.json());
 // CORS Configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' ? '*' : [
-    'https://f13hlq98-8080.uks1.devtunnels.ms',
     'http://localhost:8080',
     'http://localhost:5000',
     'http://localhost:8081',
